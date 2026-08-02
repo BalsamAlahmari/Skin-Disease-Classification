@@ -155,24 +155,6 @@ Performance generally declined when these approaches were evaluated on the proje
 - Batch normalization
 - Dropout and L2 regularization
 
-## Limitations
-
-- Synthetic images did not achieve full photorealism because of training and hardware constraints.
-- Validation accuracy remained lower than training accuracy, indicating room for improved generalization.
-- Several visually similar disease classes showed noticeable confusion.
-- The model was evaluated on an academic image dataset and has not undergone clinical validation.
-- Predictions may not generalize to images captured under different lighting, devices, demographics, or clinical settings.
-
-## Future Improvements
-
-- Train the generative model for longer using stronger GPU resources.
-- Improve synthetic-image quality and evaluate it quantitatively.
-- Experiment with transfer-learning architectures and attention mechanisms.
-- Apply stronger class-balancing and loss-weighting strategies.
-- Add Explainable AI methods such as Grad-CAM.
-- Evaluate the model on additional external datasets.
-- Perform calibration, fairness, and clinical validation before considering real-world use.
-- Develop a carefully designed inference interface for research demonstrations.
 
 ## Contributors
 
@@ -183,8 +165,4 @@ Performance generally declined when these approaches were evaluated on the proje
 - Rahaf Jelan
 
 University of Jeddah — College of Computer Science and Engineering  
-Course: CCAI 323 Machine Learning
 
-## Responsible Use
-
-This repository demonstrates an academic machine learning workflow. Its outputs should not be interpreted as medical advice, diagnosis, or treatment recommendations. Any healthcare application would require appropriate clinical evaluation, regulatory review, privacy safeguards, security controls, and ongoing human oversight.
